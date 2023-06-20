@@ -2,6 +2,8 @@ import Home from "./Home";
 import './App.css';
 import { Routes, Route } from "react-router-dom";
 import Stopwatch from "./Stopwatch";
+import Stop from "./Stop";
+import './App.css';
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Stopwatch" element={<Stopwatch />} />
+        <Route path="/Stop" element={<Stop />} />
       </Routes>
     </div>
   );
